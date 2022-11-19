@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Uploadimages</string>
+    <string name="simpan">simpan</string>
+    <string name="title_gambar">title gambar</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="code_gambar">Code Gambar</string>
+</resources>

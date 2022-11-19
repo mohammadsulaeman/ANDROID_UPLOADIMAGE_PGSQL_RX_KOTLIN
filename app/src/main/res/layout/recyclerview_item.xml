@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center">
+
+   <androidx.cardview.widget.CardView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       app:cardCornerRadius="15dp"
+       app:cardPreventCornerOverlap="true"
+       app:cardElevation="10dp"
+       app:cardUseCompatPadding="true">
+      <LinearLayout
+          android:id="@+id/line_klik_item"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical"
+          android:gravity="center">
+          <de.hdodenhof.circleimageview.CircleImageView
+              android:id="@+id/image_view_read"
+              android:layout_width="210dp"
+              android:layout_height="210dp"
+              android:src="@drawable/ic_baseline_image_24"/>
+          <TextView
+              android:id="@+id/text_view_nama_read"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginStart="20dp"
+              android:layout_marginEnd="20dp"
+              android:text="@string/title_gambar"
+              android:textAlignment="center"
+              android:textSize="35sp"
+              android:textColor="@color/black"/>
+      </LinearLayout>
+   </androidx.cardview.widget.CardView>
+</LinearLayout>
